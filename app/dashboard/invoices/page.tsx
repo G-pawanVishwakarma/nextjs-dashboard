@@ -1,11 +1,3 @@
-import React from 'react'
-
-const page = () => {
-  return (
-    <div>
-      hello invoices
-    </div>
-  )
+export default function Page() {
+  return <p>Invoices Page</p>;
 }
-
-export default page
